@@ -1,0 +1,111 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    text-transform: uppercase;
+  }
+  nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right:20px;
+  }
+  nav li{
+    list-style-type: none;
+    margin-left: 20px;
+  }
+  nav h1{
+    font-size: 2em;
+  }
+  nav a{
+    color: rgb(14, 3, 3);
+    font-weight: 300;
+    text-decoration: none;
+  }
+  .site-title{
+      display: inline;
+  }
+form{
+    
+    margin: 5% 40%;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+ input[type=text]{
+     width:94%;
+     height: 30px;
+     outline: none;
+ }
+
+footer{
+
+    margin-bottom: 0px;
+    color:black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:green;
+
+}
+.flex-container >div {
+    background-color:whitesmoke;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+
+    font-size: 30px;
+    word-wrap: break-word;
+  }
+  input[type=submit]{
+   padding: 10px;
+   cursor: pointer;
+  font-size: 18px;
+
+  }
+  input[type=submit]:hover{
+      background-color: green;
+
+  }
+  label{
+   color:green;
+   font-size: 18px;
+   
+
+  }
+  .blog-container{
+      margin: auto;
+      width: 90%;
+      margin-top:30px;
+      margin-bottom:300px
+  }
+
+.blo  {
+  text-decoration: none
+}
+.title{
+  color:black;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.snippet{
+
+ color: black;
+
+}
+.content{
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cont{
+  
+  margin-left: 40px;
+}

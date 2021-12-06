@@ -1,0 +1,34 @@
+<head>
+  <%-include('partials/head.ejs')%>
+</head>
+    
+    <body>
+        <%- include("partials/nav.ejs") %>
+    
+        <div class="cont">
+          <h2>All Blogs</h2>
+          <div class="row blog-container">
+
+          <% if (blogs.length > 0) { %>
+            <% blogs.forEach(blog => { %>
+              
+              <div class="col-3 card m-1">
+                 <a class="blo" href="/blogss/<%=blog._id %>">
+
+                <h3 class="title card-title"><%= blog.title %></h3>
+                <p class="snippet card-text"><%= blog.snippet %></p>
+
+                 </a>
+              </div>
+              
+            <% }) %>
+          <% } else { %>
+            <p>There are no blogs available</p>
+          <% } %>
+          
+        </div>
+      </div>
+      
+        <%- include("partials/footer.ejs") %>
+    </body>
+    </html>
