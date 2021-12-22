@@ -69,4 +69,5 @@ module.exports = router;
   // router.get('/blog',{ blogController.blog_create_get });
   // router.post('/news',{blogController.blog_create_post});
   // router.get('/blogss/:id',{ blogController.blog_details });
+  //testing
 
